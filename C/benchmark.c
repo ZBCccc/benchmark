@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <openssl/hmac.h>
+#include "myCrypto.h"
 #include <time.h>
 
 #define KEY "secret_key"
